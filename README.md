@@ -1,10 +1,12 @@
-# Fraud-Detection-in-UPI-Transactions
+# Hybrid Credit Card Fraud Detection System  
 
-This project focuses on detecting fraudulent UPI transactions using clustering (K-Means, GMM) and classification (Random Forest). It analyzes transaction patterns like amount, time, and sender-receiver relationships to identify suspicious behavior.
+This project implements an end-to-end Faud detection system combining supervised learning and unsupervised anomaly detection. The goal is to detect fraudulent transactions in highly imbalanced financial datasets with high recall and precision.
 
-Dataset: 1500 UPI transactions (8 features)
+The system uses:
 
-Clustering used for fraud detection (K-Means performed better)
-Classification used to predict transaction success (78% accuracy with Random Forest)
-Insights: Higher fraud at odd hours and larger amounts
-Visualizations: Boxplots, heatmaps, pairplots
+- XGBoost (Supervised Model)  
+- Isolation Forest (Anomaly Detection)  
+- Hybrid Fraud Score
+
+
+
