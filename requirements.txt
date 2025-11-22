@@ -1,0 +1,12 @@
+#pip install -r requirements.txt
+
+numpy
+pandas
+scikit-learn
+xgboost
+imbalanced-learn
+matplotlib
+seaborn
+shap
+streamlit
+shap
